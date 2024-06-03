@@ -53,7 +53,7 @@ SELECT host, user, Grant_priv, Super_priv FROM mysql.user WHERE user='root';
 使用以下命令授予 root 用户全局权限：
 
 ```sql
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'Hxsoft@123' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '88888888' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 授予 game 用户权限
@@ -61,7 +61,7 @@ FLUSH PRIVILEGES;
 然后授予 game 用户在 localhost 上的权限：
 
 ```sql
-GRANT ALL PRIVILEGES ON *.* TO 'game'@'localhost' IDENTIFIED BY 'uu5!^%jg';
+GRANT ALL PRIVILEGES ON *.* TO 'game'@'localhost' IDENTIFIED BY '88888888';
 FLUSH PRIVILEGES;
 ```
 检查和验证权限
