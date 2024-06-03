@@ -1,4 +1,4 @@
-# mysql_chmod
+# 修复ERROR 1045 (28000): Access denied for user 'root'@'%' (using password: YES)
 直接修改 mysql.user 表中的权限字段
 停用 MySQL 服务并启动 MySQL 安全模式
 
