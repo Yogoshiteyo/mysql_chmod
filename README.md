@@ -4,10 +4,10 @@
 
 在终端中执行以下命令停止 MySQL 服务并以安全模式启动：
 
-bash
-复制代码
+```sql
 sudo service mysql stop
 sudo mysqld_safe --skip-grant-tables &
+```
 以 root 用户连接 MySQL
 
 以 root 用户登录 MySQL：
